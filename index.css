@@ -1,5 +1,29 @@
-*{
+html{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    border: none;
+    font-size: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+}
+
+.text{ 
+    font-size: 2rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.text__box{
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid;
 }
