@@ -1,8 +1,12 @@
+:root{
+    --fz: 10px
+}
+
 html{
     margin: 0;
     padding: 0;
     border: none;
-    font-size: 10px;
+    font-size: var(--fz);
 }
 
 body{
