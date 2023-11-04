@@ -1,33 +1,20 @@
-:root{
-    --fz: 10px
+*{
+    box-sizing: border-box;
 }
 
 html{
-    margin: 0;
-    padding: 0;
-    border: none;
-    font-size: var(--fz);
+    font-size: 10px;
 }
 
 body{
+    border: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    border: none;
+    overflow-x: hidden;
 }
 
-.text{ 
-    font-size: 2rem;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-}
-
-.text__box{
-    width: 20rem;
+.banner{
+    background: url(../img/1.jfif) center top / cover no-repeat fixed;
     height: 20rem;
-    border: 1px solid;
+    width: 100%;
 }
